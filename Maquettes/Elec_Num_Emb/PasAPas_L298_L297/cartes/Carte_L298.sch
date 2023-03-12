@@ -1,6 +1,5 @@
 EESchema Schematic File Version 4
-LIBS:Carte_L298-cache
-EELAYER 26 0
+EELAYER 30 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
@@ -566,12 +565,12 @@ Wire Wire Line
 $Comp
 L Connector_Generic:Conn_02x10_Odd_Even J4
 U 1 1 5FB7714A
-P 1400 4550
-F 0 "J4" H 1450 5167 50  0000 C CNN
-F 1 "Commande_C" H 1450 5076 50  0000 C CNN
-F 2 "Connector_PinHeader_2.54mm:PinHeader_2x10_P2.54mm_Vertical" H 1400 4550 50  0001 C CNN
-F 3 "~" H 1400 4550 50  0001 C CNN
-	1    1400 4550
+P 1450 4550
+F 0 "J4" H 1500 5167 50  0000 C CNN
+F 1 "Commande_C" H 1500 5076 50  0000 C CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_2x10_P2.54mm_Vertical" H 1450 4550 50  0001 C CNN
+F 3 "~" H 1450 4550 50  0001 C CNN
+	1    1450 4550
 	1    0    0    -1  
 $EndComp
 Text GLabel 6300 4600 0    50   Input ~ 0
@@ -608,13 +607,13 @@ Text GLabel 4750 4500 2    50   Input ~ 0
 IN3_C
 Text GLabel 4750 4600 2    50   Input ~ 0
 IN4_C
-Text GLabel 1800 4250 2    50   Input ~ 0
+Text GLabel 1850 4250 2    50   Input ~ 0
 HALF
 Text GLabel 3150 4100 0    50   Input ~ 0
 HALF
-Text GLabel 1800 4350 2    50   Input ~ 0
+Text GLabel 1850 4350 2    50   Input ~ 0
 CLOCK
-Text GLabel 1800 4450 2    50   Input ~ 0
+Text GLabel 1850 4450 2    50   Input ~ 0
 CW
 Text GLabel 3150 4300 0    50   Input ~ 0
 CW
@@ -662,19 +661,19 @@ Wire Wire Line
 	3100 5000 3250 5000
 Text GLabel 4050 3700 0    50   Input ~ 0
 5V_C
-Text GLabel 1800 4650 2    50   Input ~ 0
+Text GLabel 1850 4650 2    50   Input ~ 0
 GND_C
-Text GLabel 1800 4750 2    50   Input ~ 0
+Text GLabel 1850 4750 2    50   Input ~ 0
 5V_C
-Text GLabel 1800 4550 2    50   Input ~ 0
+Text GLabel 1850 4550 2    50   Input ~ 0
 VREF_C
 Text GLabel 4300 3700 2    50   Input ~ 0
 VREF_C
-Text GLabel 1800 4850 2    50   Input ~ 0
+Text GLabel 1850 4850 2    50   Input ~ 0
 CONTROL
-Text GLabel 1800 4150 2    50   Input ~ 0
+Text GLabel 1850 4150 2    50   Input ~ 0
 RESET
-Text GLabel 1800 4950 2    50   Input ~ 0
+Text GLabel 1850 4950 2    50   Input ~ 0
 ENABLE
 Text GLabel 3150 4600 0    50   Input ~ 0
 CONTROL
@@ -682,27 +681,27 @@ Text GLabel 3150 4500 0    50   Input ~ 0
 RESET
 Text GLabel 3150 4400 0    50   Input ~ 0
 ENABLE
-Text GLabel 1100 4150 0    50   Input ~ 0
+Text GLabel 1150 4150 0    50   Input ~ 0
 RESET
-Text GLabel 1100 4250 0    50   Input ~ 0
+Text GLabel 1150 4250 0    50   Input ~ 0
 HALF
-Text GLabel 1100 4350 0    50   Input ~ 0
+Text GLabel 1150 4350 0    50   Input ~ 0
 CLOCK
-Text GLabel 1100 4450 0    50   Input ~ 0
+Text GLabel 1150 4450 0    50   Input ~ 0
 CW
-Text GLabel 1100 4550 0    50   Input ~ 0
+Text GLabel 1150 4550 0    50   Input ~ 0
 VREF_C
-Text GLabel 1100 4650 0    50   Input ~ 0
+Text GLabel 1150 4650 0    50   Input ~ 0
 GND_C
-Text GLabel 1100 4750 0    50   Input ~ 0
+Text GLabel 1150 4750 0    50   Input ~ 0
 5V_C
-Text GLabel 1100 4850 0    50   Input ~ 0
+Text GLabel 1150 4850 0    50   Input ~ 0
 CONTROL
-Text GLabel 1100 4950 0    50   Input ~ 0
+Text GLabel 1150 4950 0    50   Input ~ 0
 ENABLE
-Text GLabel 1800 5050 2    50   Input ~ 0
+Text GLabel 1850 5050 2    50   Input ~ 0
 SenseB_C
-Text GLabel 1100 5050 0    50   Input ~ 0
+Text GLabel 1150 5050 0    50   Input ~ 0
 SenseA_C
 Text GLabel 2650 5000 0    50   Input ~ 0
 5V_C
@@ -753,43 +752,63 @@ Wire Wire Line
 Wire Wire Line
 	3150 4600 3250 4600
 Wire Wire Line
-	1700 4150 1800 4150
+	1750 4150 1850 4150
 Wire Wire Line
-	1700 4250 1800 4250
+	1750 4250 1850 4250
 Wire Wire Line
-	1700 4350 1800 4350
+	1750 4350 1850 4350
 Wire Wire Line
-	1700 4450 1800 4450
+	1750 4450 1850 4450
 Wire Wire Line
-	1700 4550 1800 4550
+	1750 4550 1850 4550
 Wire Wire Line
-	1700 4650 1800 4650
+	1750 4650 1850 4650
 Wire Wire Line
-	1700 4750 1800 4750
+	1750 4750 1850 4750
 Wire Wire Line
-	1700 4850 1800 4850
+	1750 4850 1850 4850
 Wire Wire Line
-	1700 4950 1800 4950
+	1750 4950 1850 4950
 Wire Wire Line
-	1700 5050 1800 5050
+	1750 5050 1850 5050
 Wire Wire Line
-	1100 4150 1200 4150
+	1150 4150 1250 4150
 Wire Wire Line
-	1100 4250 1200 4250
+	1150 4250 1250 4250
 Wire Wire Line
-	1100 4350 1200 4350
+	1150 4350 1250 4350
 Wire Wire Line
-	1100 4450 1200 4450
+	1150 4450 1250 4450
 Wire Wire Line
-	1100 4550 1200 4550
+	1150 4550 1250 4550
 Wire Wire Line
-	1100 4650 1200 4650
+	1150 4650 1250 4650
 Wire Wire Line
-	1100 4750 1200 4750
+	1150 4750 1250 4750
 Wire Wire Line
-	1100 4850 1200 4850
+	1150 4850 1250 4850
 Wire Wire Line
-	1100 4950 1200 4950
+	1150 4950 1250 4950
 Wire Wire Line
-	1100 5050 1200 5050
+	1150 5050 1250 5050
+Wire Notes Line
+	850  850  7250 850 
+Wire Notes Line
+	7250 850  7250 3300
+Wire Notes Line
+	7250 3300 850  3300
+Wire Notes Line
+	850  3300 850  850 
+Text Notes 6750 3250 0    50   ~ 0
+Carte L298
+Wire Notes Line
+	700  3550 7550 3550
+Wire Notes Line
+	7550 3550 7550 5850
+Wire Notes Line
+	7550 5850 700  5850
+Wire Notes Line
+	700  5850 700  3550
+Text Notes 7050 5800 0    50   ~ 0
+Carte L297
 $EndSCHEMATC
